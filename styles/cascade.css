@@ -1,17 +1,16 @@
- @charset "UTF-8"
+ /* @charset "UTF-8" */
  /* css document*/
-
-    {
+body {
     background-repeat:norepeat;
-    background-image url:(../images/cascade.html/cascade_mountains-bg.jpg)";
-     background-attachment:fixed;
-     background-size:cover;
-        margin: 0px;
-        padding: 0px;
-     
+    background-image: url(../images/cascade_mountains-bg.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    margin: 0px;
+    padding: 0px;
+    }
 
-    header,section,aside,article,footer,
-       figure-display: block;
+    header,section,aside,article,footer,figure {
+       display: block;
     }
  
 
@@ -22,7 +21,8 @@
  }
 
  header h1 {
-     margin-left: 15px font-size: 30px;
+     margin-left: 15px ;
+     font-size: 30px;
  
  }
 
@@ -39,14 +39,15 @@
      margin-bottom: 15px;
  }
 
- na li {
+ nav li {
      display: inline-block;
  }
 
  nav a  {
      padding: 9px;
      display: block;
-     width: 100px:text-decoration: none;
+     width: 100px;
+     text-decoration: none;
      background-color: 44a5b5;
      color: white;
  }
@@ -55,10 +56,11 @@
      background-color: white;
  }
 
- Footer {
+ footer {
      color: white;
      padding: 9px;
      background-color: rgba(68, 165, 181, 0.8);
+     clear:both;
 
  }
 
@@ -86,5 +88,3 @@
      color: #44a5b5;
      padding: 4px;
  }
-
- body
